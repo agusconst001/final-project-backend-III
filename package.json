@@ -1,0 +1,33 @@
+{
+  "name": "mi-backend-app",
+  "version": "1.0.0",
+  "description": "Proyecto backend con productos, usuarios y sesiones. Todo en una sola app 😎",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "keywords": ["backend", "express", "nodejs", "api", "ecommerce"],
+  "author": "Agustina Constanza Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.1",
+    "nodemailer": "^7.0.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "jest": "^30.0.2",
+    "supertest": "^7.1.1"
+  }
+}
