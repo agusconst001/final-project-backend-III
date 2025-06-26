@@ -1,18 +1,19 @@
 {
-  "name": "mi-backend-app",
+  "name": "back-application-ii",
   "version": "1.0.0",
-  "description": "Proyecto backend con productos, usuarios y sesiones. Todo en una sola app 😎",
+  "description": "",
   "main": "src/app.js",
   "type": "module",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
-    "test": "jest"
+    "dev": "nodemon src/server.js",
+    "test": "set NODE_ENV=test && set NODE_OPTIONS=--experimental-vm-modules && jest"
   },
-  "keywords": ["backend", "express", "nodejs", "api", "ecommerce"],
-  "author": "Agustina Constanza Rodriguez",
+  "keywords": [],
+  "author": "Agustinca Constanza Rodriguez",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^9.7.0",
     "bcrypt": "^5.1.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
@@ -26,8 +27,9 @@
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-esm-transformer": "^1.0.0",
     "nodemon": "^3.1.10",
-    "jest": "^30.0.2",
     "supertest": "^7.1.1"
   }
 }
