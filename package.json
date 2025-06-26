@@ -10,7 +10,7 @@
     "test": "set NODE_ENV=test && set NODE_OPTIONS=--experimental-vm-modules && jest"
   },
   "keywords": [],
-  "author": "Agustinca Constanza Rodriguez",
+  "author": "Agustina Constanza Rodriguez",
   "license": "ISC",
   "dependencies": {
     "@faker-js/faker": "^9.7.0",
